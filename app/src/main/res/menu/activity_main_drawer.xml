@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/p_order"
+            android:icon="@drawable/p_order"
+            android:title="Pending Order" />
+
+        <item
+            android:id="@+id/a_order"
+            android:icon="@drawable/a_order"
+            android:title="Active Order" />
+
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/order_history"
+            android:title="Order History" />
+
+        <item
+            android:id="@+id/wallet"
+            android:icon="@drawable/wallet"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/mechanics"
+            android:icon="@drawable/mechanics"
+            android:title="Request mechanic" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/contact_us"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About" />
+
+    </group>
+</menu>

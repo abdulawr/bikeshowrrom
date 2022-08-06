@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Mechanic_Request">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ed_back"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Select Area"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:id="@+id/spinner"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/mobile"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:inputType="number"
+            android:maxLength="11"
+            android:hint="Mobile (active no)"
+            android:background="@drawable/ed_back"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="start"
+            android:padding="8dp"
+            android:id="@+id/address"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:hint="Current Address"
+            android:background="@drawable/ed_back"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:padding="8dp"
+            android:id="@+id/problem"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:hint="Problem"
+            android:background="@drawable/ed_back"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/btn_back"
+            android:layout_marginTop="20dp"
+            android:id="@+id/submit"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Submit Request"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</ScrollView>

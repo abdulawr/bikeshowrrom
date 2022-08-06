@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MainScreen_Activity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/logo"/>
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/btn_back"
+        android:layout_marginLeft="30dp"
+        android:text="Buy Bikes"
+        android:onClick="Buy_Bikes"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_marginRight="30dp"/>
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:text="Mechanics"
+        android:onClick="Mechanis"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_back"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+</LinearLayout>

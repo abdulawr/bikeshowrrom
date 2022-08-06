@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.JazzCash_Testing">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credit/Debit Card"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="16sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/card"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jazzcash Mobile Account"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="16sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/mobile"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

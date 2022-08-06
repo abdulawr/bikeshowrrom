@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_gravity="right"
+        android:id="@+id/close_btn"
+        android:src="@drawable/close_icon"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/profile_image"
+        android:padding="3dp"
+        android:background="@drawable/ed_back"
+        android:src="@drawable/chooseimage"/>
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/btn_back"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:id="@+id/update_image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

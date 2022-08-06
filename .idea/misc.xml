@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/drawable-v24/btn_back.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/drawable/buy_bike.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/drawable/ed_back.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/drawable/filter_bike.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_about.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_contact_us.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_jazz_cash.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_jazz_cash__testing.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_main_screen.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_mechanic_request.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_messages.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_order_confirmation.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_order_details.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_orders.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_place_order.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_profile.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_view_bike.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/activity_wallet.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/bike_adapter_view.xml" value="0.22" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/content_home.xml" value="0.18425925925925926" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/content_messages.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/filter_data_view.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/message_adapter_veiw.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/nav_header_home.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/order_adapter_view.xml" value="0.25" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/transaction_adapter.xml" value="0.22" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/layout/update_profile_image.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/menu/activity_main_drawer.xml" value="0.1921875" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/menu/home.xml" value="0.18425925925925926" />
+        <entry key="..\:/Android Prog/Source Code/Bike Showroom/app/src/main/res/menu/wallet.xml" value="0.1921875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/profile"
+        app:civ_border_color="@color/purple_700"
+        app:civ_border_width="1dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-25dp"
+        android:padding="5dp"
+        android:id="@+id/change_img"
+        android:background="@drawable/dialog_background"
+        android:layout_marginLeft="20dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_menu_camera"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Name"
+            android:inputType="text"
+            android:id="@+id/name"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/ed_back"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Mobile"
+            android:inputType="number"
+            android:maxLength="11"
+            android:id="@+id/mobile"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/ed_back"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/ed_back"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="CNIC"
+            android:id="@+id/cnic"
+            android:inputType="number"
+            android:maxLength="13"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/ed_back"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Address"
+            android:id="@+id/add"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/ed_back"
+            android:layout_marginTop="10dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Password"
+            android:id="@+id/pass"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/ed_back"
+            android:layout_marginTop="10dp"/>
+
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/btn_back"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:id="@+id/update"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

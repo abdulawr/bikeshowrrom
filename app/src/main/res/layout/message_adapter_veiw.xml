@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:layout_weight="0"
+                    android:layout_width="wrap_content"
+                    android:text="Subject"
+                    android:textStyle="bold"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_weight="0"
+                    android:id="@+id/subject"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="-------"
+
+                    android:textSize="17sp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_weight="0"
+                    android:layout_width="wrap_content"
+                    android:text="Message"
+                    android:textStyle="bold"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_weight="0"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:id="@+id/message"
+                    android:text="-------"
+                    android:textSize="17sp"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_weight="0"
+                    android:layout_width="wrap_content"
+                    android:text="Date"
+                    android:textStyle="bold"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_weight="0"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="-------"
+                    android:id="@+id/date"
+                    android:textSize="17sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/replay_Row"
+                android:visibility="gone">
+                <TextView
+                    android:layout_weight="0"
+                    android:layout_width="wrap_content"
+                    android:text="Replay"
+                    android:textStyle="bold"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_weight="0"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="-------"
+                    android:id="@+id/replay"
+                    android:textSize="17sp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

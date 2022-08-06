@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Bikes"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style = "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:hint = "Company">
+
+        <AutoCompleteTextView
+            android:id = "@+id/company_drp"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:clickable = "true"
+            android:focusable = "true"
+            android:focusableInTouchMode = "false"
+            android:inputType = "none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style = "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_width = "match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height = "wrap_content"
+        android:hint = "Bike CC">
+
+        <AutoCompleteTextView
+            android:id = "@+id/bike_cc"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:clickable = "true"
+            android:focusable = "true"
+            android:focusableInTouchMode = "false"
+            android:inputType = "none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style = "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width = "match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height = "wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:hint = "Model"
+            android:id="@+id/model"
+            android:maxLength="4"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <android.widget.Button
+        android:layout_width="200dp"
+        android:layout_gravity="right"
+        android:id="@+id/searchBike"
+        android:layout_height="46dp"
+        android:background="@drawable/btn_back"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
